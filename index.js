@@ -1,7 +1,7 @@
 const medias = {
   audio: false,
   video: {
-    facingMode: "user" // フロントカメラにアクセス
+    exact: "environment"
   }
 };
 const video = document.getElementById("video");
